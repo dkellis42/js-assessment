@@ -28,7 +28,7 @@ exports.functionsAnswers = {
   },
 
   callIt : function(fn) {
-
+    return fn.call(arguments);
   },
 
   partialUsingArguments : function(fn) {
